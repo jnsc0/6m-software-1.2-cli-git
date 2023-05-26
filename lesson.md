@@ -44,7 +44,7 @@ When you clone, you are copying a remote repository to your local machine (lapto
 
 ---
 
-## Part 2 - Push Changes, Create Pull Request. (20 mins)
+## Part 2 - Push Changes, Create Pull Request. (20 mins) --> useful during projects. merging of multiple files into one repository. 
 
 Follow these steps to try making changes and push them to the remote repository. (6m-software-1.2-cli-git)
 
@@ -58,7 +58,7 @@ Step 4: Stage the changed file by typing `git add .` -> this tracks all the chan
 
 Step 5: Commit it with a simple message `git commit -m "made changes"`. --> "the message should be descriptive of what was done for the commit"
 
-step5.5:
+Step 5.5 `git status` -> check the repository for any changes.
 
 Step 6: Push the committed change to remote repository `git push origin main`.
 
@@ -71,6 +71,8 @@ From: `https://github.com/your_username/6m-software-1.2-cli-git`
 To: `https://github.com/su-ntu-ctp/6m-software-1.2-cli-git` 
 
 > If you have problems with credentials when pushing to Github.com, you can just follow the onscreen instructions to add your email and name. WSL users need to run `gh auth login` to do a one-time authentication. You might need to run `sudo apt install gh` first.
+
+cheatcodes for github: https://education.github.com/git-cheat-sheet-education.pdf
 
 ---
 
