@@ -54,9 +54,11 @@ Step 2: Open the file and simply type "testing 123" in it.
 
 Step 3: Open up the Terminal and ensure that you are in the directory of the cloned repository (folder) by using `pwd` command.
 
-Step 4: Stage the changed file by typing `git add .`
+Step 4: Stage the changed file by typing `git add .` -> this tracks all the changes that have been done in the directory. "A" will appear.  `git status` --> would show the changes.
 
-Step 5: Commit it with a simple message `git commit -m "made changes"`.
+Step 5: Commit it with a simple message `git commit -m "made changes"`. --> "the message should be descriptive of what was done for the commit"
+
+step5.5:
 
 Step 6: Push the committed change to remote repository `git push origin main`.
 
