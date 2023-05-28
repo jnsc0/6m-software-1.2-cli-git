@@ -1,20 +1,18 @@
-p {
-    background-color: lightblue;
+h1{
+    color: orange
 }
 
 li {
-    color:darkblue;
+    font-style: italic;
 }
 
-h3 {
-    font-style:italic;
+/*want the element with the id-intro to be selected*/
+#intro {
+    background-color: aqua;
 }
 
-img {
-    opacity: 0.8;
-    border-radius: 50%;
-}
-
-.avatar {
-    width:200px;
+/*want the profilepic class to be selected*/
+.profilepic {
+    opacity: 0.6;
+    border-radius: 10px;
 }

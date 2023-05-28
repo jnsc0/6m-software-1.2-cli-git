@@ -1,8 +1,83 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <!-- Add Code Here -->
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joey Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="#" class="profilename">ShuChi.</a>
+      <nav class="navibar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+      </nav>
+    </header>
+
+    <!-- home section. first name, last name, singapore flag-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>NG SHU CHI</span></h1>
+            <div class="role">
+                <h2>Software Developer</h2>
+            </div>
+          <p>A biomedical graduate excited to contribute to healthcare-tech.<br>
+            Currently undergoing Software Engineering courses to help launch into the tech industry.<br>
+            Developer based in Singapore.
+          </p>
+        </div>
+
+        <div class="boss">
+        </div>
+
+        <div class="flag">
+        </div>
+
+        <div class="website-icon">
+          <a href="https://www.linkedin.com/in/joey-ng-631533271/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAd1JREFUaEPtmY1NwzAUhL9OAEwAGwATABMAEwAbwATABLABMAFsUJgAmADYgA1AJ9mSFT0njuraiWRLlarGje/e3/nZC2Y+FjPHTyNQ24PNA1P2wAlwDexVBvkNXAEvFo6+EPoCdiqD98t/APtjCfxNBLyHYRq7zwONQGYPZvHAJ3AJvDpwh8A9sJsZbHK4jw2howC8X0QklnMhECNcIl+yhNDsCagWqyaHQ0L3PpcQEvhTQOqoIaF7LqTWWULIG/rXfdksYPkmZKGRn4Lw8b8rjM6CSbeGV86BbeDN6YZCUOGoEqz/6/nBgDezhFCKDlgLSfge3SeGUyQeekhUJaBK1a1eFtYbt4WvqsSrdHkqCgqvDYNBVQ+E+aJc+DFyyc9R43I8RQJ3biPosV1EciIWRlU9ENvwbQFeUzwx7XZFtjuqEohZNaWqZRWylAUtS6mEhlrhQaW8bxIEpAOWUDUC6+jIYkrcPJAsz26i1SamxGzzQOSQoKoOtCoE9mXM2Cokmbeaeh1u+aFtQ3fouXXKnfK+rEI20DSt9XGWHFgrwhIt5awIqDNS8zGFoUNl86aoL4l1xaRtcImT5z4jqXtTso++YpqC5QcxrNKAD768xIRGoISV+9ZoHqjtgX+XdJAxobEL7gAAAABJRU5ErkJggg==" alt="link to linkin"/></i></a>
+          <a href="https://github.com/jnsc0/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAA4BJREFUaEPtmY+RjEEQxd9FgAgQASJABIgAESACRIAIuAgQASJABIgAEVC/qhk1O9PT09/s7Kmr2q7aut39dnr69Z/XPXMnOudycs7t1xHA/47gyghcl3RT0i1JVyTxuZQvkn5J+phen1aA3xfARUmPJD1IRm+x6bukd5JeSeL9lMwCwPCnkh5P7doueiPpSYrQJpUzAO5Kei0JECuF9AIEYMKyFcCLhV7vGQmAh1EEWwDgdXL9LIRCvxdJqSiAszQ+OwgQt0feigB4lgp2pOsQz4fpNAIAp38wLDtNxcZz0urypPW/kx7oFHKAkmuhHrqF7QGAZT53+J3QEuIsgHgp6UL64quRv+i7lp5jOJFlTRaa3zcDAOx0tVcPHgAvdax1GEj3LYFZgSFquSvXz/90IknETQLpAcAYvNHj+lHqTWaUegDQRxSajt0zhA4L5/fkUoTiJlB4ABg5ms7fA0Du18NYaU9dAxO2NkvYj317gveJwo5YAHrFlBe+T4yxwuhaB0VtMVH+XeM4CwDFQuPqiZmLi9BQc3g6s1mt9nlir3/fWwA8LxzS+9koOP9+xyHN/hYAaJCDiSWNBxZ5vlRDQ3vb0Qv93iifbQXAgEXXPKT0un/ec8dmCwD8TyFb4rb1Raj2BkCYcssfFtEio6MpxO+GEfBqwGwmi0F4I8yPOju21kBTRIuNRx01dqejl5sMUmyaRll46D7w03FKiEY9GkN3dzJcEI3R4YlDfzmCm1eLdEPPC9h5qFmIw5N320EPII3dFOKhV8g855BBTxjN/tGgkNc0L8/4poAbSip2q+chFmN0Ta+0fbrz7M0a/YYLsshtR5M+HoDs5TxUwQx4HA/xvh41CCvR4C+FBlhLWA/DMDrjdW9kL9dzBAVso9c7WdWHGozL1xwYazU7zsIjo0bpaQHvzmCjo2HdlTMD5bNvPfZGRo0Ry9UASF/2M6M6AmCdknIf4Bm0Ryrka3M+R+rBOzrWAFzGGwFAWV3QuR6iDGP9LgrALNwIjdab1occPqN8ViIAQg0zEoFsZA2CVOG73FhgCTaNyAhAyPgRjVqGjM7LUYd4AIZpM5NC5RqKlwZm0eg+AGAbHLSpu0c3tKJBn+BVXuxG9ZURoEmRijDYZolu6CnGa3kU2JnVnUV4ma6M4Zv+pVTrXAFgs9dWLjgCWOnNGV3HCMx4beWav4uArjFD7/JYAAAAAElFTkSuQmCC" alt="link to github"/></a>
+    </section>
+
+    <!-- about me section. short paragraph of me -->
+    <section class="about" id="about">
+      <div class="about" id="about">
+        <h3>ABOUT ME</h3>
+        <h4>Aspiring Software Developer</h4>
+        <p>I'm a biomedical graduate with a strong passion for healthcare and technology. <br>
+          With experience in clinical healthcare roles, I've developed a strong foundation in patient care and medical innocation. <br>
+          Driven by the potential of technology in healthcare, I've ventured into software engineering, 
+          eager to combine my knowlegde of healthcare with my newly acquired coding skills to help 
+          contribute creating innovative solutions with a unique twist from a deeper understanding 
+          of the industry needs.
+        </p>
+      </div>
+    </section>
+
+    <!-- hobbies section. list down hobbies -->
+    <section class="hobbies" id="hobbies">
+     <div class="hobbies-content">
+      <h5>HOBBIES</h5>
+        <ul class="side-by-side">
+          <li> 
+            <img src="../img/leticia-bufoni.avif" alt="image of skateboarding" class="listImage">
+            <p>skateboarding</p>
+          </li>
+          <li>
+            <img src="../img/eye.png" alt="image of painting" class="listImage">
+            <p>painting</p>
+          </li>
+        </ul>
+        <div class="middle"></div>
+     </div>
+    </section>
+
+  </body>
 </html>
+
+
+
+
